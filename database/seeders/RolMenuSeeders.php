@@ -104,6 +104,12 @@ class RolMenuSeeders extends Seeder
                 'menu_id'=>'1b174ed2-e559-4ea1-933d-15ca8c9b7e46',
                 'created_by'=>config('constants.ID_USUARIO_ADMIN')
             ],
+            [
+                'id'=> (string)Str::uuid(),
+                'rol_id'=>$rolCliente,
+                'menu_id'=>'07b31148-47e1-4361-a29d-8d7f444b12ff',
+                'created_by'=>config('constants.ID_USUARIO_ADMIN')
+            ],
         ];
 
         $currentDateTime = Carbon::now();

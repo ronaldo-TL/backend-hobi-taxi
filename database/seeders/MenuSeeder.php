@@ -78,6 +78,13 @@ class MenuSeeder extends Seeder
                 'icono'=>'book_online',
                 'orden'=>9
             ],
+            [
+                'id'=>'07b31148-47e1-4361-a29d-8d7f444b12ff',
+                'nombre'=>'Solicitudes',
+                'ruta'=>'solicitudes',
+                'icono'=>'book_online',
+                'orden'=>10
+            ],
         ];
 
         $currentDateTime = Carbon::now();
